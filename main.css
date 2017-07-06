@@ -1,0 +1,121 @@
+/****BASE STYLES***/
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  max-width: 1200px;
+}
+
+/***GRID****/
+.full-width {
+  /*width: 1200px;*/
+  width: 100%;
+}
+
+.half-width {
+  width: /*600px;*/
+  width: 50%;
+}
+
+.third-width {
+  /*width: 370px;*/
+  width: 31%;
+  float: left;
+  margin: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+
+/***HEADER***/
+.green-type {
+  color: #77a466;
+}
+
+.name {
+  float: left;
+  font-weight:900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+}
+
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 12px;
+  color: #77a466;
+  margin: 10px 10px 0px 10px;
+}
+
+
+/****IMAGE***/
+img {
+  clear: auto;
+  height: 300px;
+  width: cover;
+  margin-top: 0px;
+  border: 2px groove #77a466;
+}
+
+
+/***WELCOME***/
+.green {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+#about {
+  margin-bottom: 30px;
+}
+
+
+/***THIRDS***/
+.specials {
+  color: #77a466;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.black-type {
+  color: black;
+  text-transform: uppercase;
+}
+
+.middle {
+  padding: 0px 10px 0px 10px;
+}
+
+#reviews {
+  border-style: 1px solid;
+}
+
+#section-one, #section-two, #section-three {
+  border-top: 2px solid #eee;
+  border-right: 2px solid #eee;
+}
+
+
+
+/***FOOTER***/
+footer {
+  width: cover;
+  margin-top: 200px;
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cursive {
+  color: #77a466;
+  font-family: 'Dancing Script', cursive;
+  text-transform: lowercase;
+  font-size: 22px;
+}
